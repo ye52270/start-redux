@@ -1,13 +1,13 @@
 import "./App.css";
-import TodoForm from "./components/TodoForm";
-import TodoListContainer from "./components/TodoLIst";
-import TodoList from "./components/TodoLIst";
+
+import TodoListContainer from "./containers/TodoListContainer";
+import TodoFormContainer from "./containers/TodoFormContainer";
 
 function App() {
   return (
     <div className="App">
       <TodoListContainer />
-      <TodoForm />
+      <TodoFormContainer />
       <br />
     </div>
   );
